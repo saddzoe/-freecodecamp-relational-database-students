@@ -54,3 +54,17 @@ CREATE TABLE public.courses (
     course_id integer NOT NULL,
     course character varying(100) NOT NULL
 );
+
+ALTER TABLE public.courses OWNER TO freecodecamp;
+
+--
+-- Name: courses_course_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
+
+CREATE SEQUENCE public.courses_course_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
