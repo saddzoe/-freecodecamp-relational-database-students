@@ -68,3 +68,21 @@ CREATE SEQUENCE public.courses_course_id_seq
     NO MINVALUE
     NO MAXVALUE
     CACHE 1;
+    
+ALTER TABLE public.courses_course_id_seq OWNER TO freecodecamp;
+
+--
+-- Name: courses_course_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: freecodecamp
+--
+
+ALTER SEQUENCE public.courses_course_id_seq OWNED BY public.courses.course_id;
+
+
+--
+-- Name: majors; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.majors (
+    major_id integer NOT NULL,
+    major character varying(50) NOT NULL
+);
