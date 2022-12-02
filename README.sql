@@ -86,3 +86,27 @@ CREATE TABLE public.majors (
     major_id integer NOT NULL,
     major character varying(50) NOT NULL
 );
+
+ALTER TABLE public.majors OWNER TO freecodecamp;
+
+--
+-- Name: majors_courses; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.majors_courses (
+    major_id integer NOT NULL,
+    course_id integer NOT NULL
+);
+
+ALTER TABLE public.majors OWNER TO freecodecamp;
+
+--
+-- Name: majors_courses; Type: TABLE; Schema: public; Owner: freecodecamp
+--
+
+CREATE TABLE public.majors_courses (
+    major_id integer NOT NULL,
+    course_id integer NOT NULL
+);
+
+
