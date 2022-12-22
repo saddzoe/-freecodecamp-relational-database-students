@@ -211,4 +211,14 @@ INSERT INTO public.courses VALUES (37, 'UNIX');
 INSERT INTO public.courses VALUES (38, 'Server Administration');
 INSERT INTO public.courses VALUES (39, 'Network Security');
 
+--
+-- Data for Name: majors; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
 
+INSERT INTO public.majors VALUES (36, 'Database Administration');
+INSERT INTO public.majors VALUES (37, 'Web Development');
+INSERT INTO public.majors VALUES (38, 'Data Science');
+INSERT INTO public.majors VALUES (39, 'Network Engineering');
+INSERT INTO public.majors VALUES (40, 'Computer Programming');
+INSERT INTO public.majors VALUES (41, 'Game Design');
+INSERT INTO public.majors VALUES (42, 'System Administration');
