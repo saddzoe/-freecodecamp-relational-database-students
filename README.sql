@@ -222,3 +222,37 @@ INSERT INTO public.majors VALUES (39, 'Network Engineering');
 INSERT INTO public.majors VALUES (40, 'Computer Programming');
 INSERT INTO public.majors VALUES (41, 'Game Design');
 INSERT INTO public.majors VALUES (42, 'System Administration');
+
+--
+-- Data for Name: majors_courses; Type: TABLE DATA; Schema: public; Owner: freecodecamp
+--
+
+INSERT INTO public.majors_courses VALUES (36, 23);
+INSERT INTO public.majors_courses VALUES (37, 24);
+INSERT INTO public.majors_courses VALUES (36, 25);
+INSERT INTO public.majors_courses VALUES (38, 23);
+INSERT INTO public.majors_courses VALUES (39, 26);
+INSERT INTO public.majors_courses VALUES (36, 27);
+INSERT INTO public.majors_courses VALUES (38, 28);
+INSERT INTO public.majors_courses VALUES (39, 29);
+INSERT INTO public.majors_courses VALUES (40, 26);
+INSERT INTO public.majors_courses VALUES (36, 30);
+INSERT INTO public.majors_courses VALUES (41, 31);
+INSERT INTO public.majors_courses VALUES (38, 32);
+INSERT INTO public.majors_courses VALUES (40, 33);
+INSERT INTO public.majors_courses VALUES (42, 29);
+INSERT INTO public.majors_courses VALUES (41, 34);
+INSERT INTO public.majors_courses VALUES (37, 23);
+INSERT INTO public.majors_courses VALUES (38, 34);
+INSERT INTO public.majors_courses VALUES (37, 33);
+INSERT INTO public.majors_courses VALUES (41, 35);
+INSERT INTO public.majors_courses VALUES (42, 26);
+INSERT INTO public.majors_courses VALUES (41, 36);
+INSERT INTO public.majors_courses VALUES (42, 37);
+INSERT INTO public.majors_courses VALUES (42, 38);
+INSERT INTO public.majors_courses VALUES (40, 29);
+INSERT INTO public.majors_courses VALUES (40, 32);
+INSERT INTO public.majors_courses VALUES (39, 39);
+INSERT INTO public.majors_courses VALUES (37, 30);
+INSERT INTO public.majors_courses VALUES (39, 36);
+
