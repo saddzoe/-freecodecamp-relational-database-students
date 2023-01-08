@@ -260,10 +260,10 @@ INSERT INTO public.majors_courses VALUES (39, 36);
 -- Data for Name: students; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.students VALUES (6, 'Rhea', 'Kellems', 36, 2.5);
-INSERT INTO public.students VALUES (7, 'Emma', 'Gilbert', NULL, NULL);
-INSERT INTO public.students VALUES (8, 'Kimberly', 'Whitley', 37, 3.8);
-INSERT INTO public.students VALUES (9, 'Jimmy', 'Felipe', 36, 3.7);
-INSERT INTO public.students VALUES (10, 'Kyle', 'Stimson', NULL, 2.8);
-INSERT INTO public.students VALUES (11, 'Casares', 'Hijo', 41, 4.0);
-INSERT INTO public.students VALUES (12, 'Noe', 'Savage', NULL, 3.6);
+INSERT INTO public.students VALUES (6, 'Jilly', 'Johns', 32, 2.8);
+INSERT INTO public.students VALUES (7, 'Becca', 'Bibby', NULL, NULL);
+INSERT INTO public.students VALUES (8, 'Kimberly', 'White', 32, 3.6);
+INSERT INTO public.students VALUES (9, 'Jimmy', 'Gomez', 36, 3.1);
+INSERT INTO public.students VALUES (10, 'Kemir', 'Simpson', NULL, 2.2);
+INSERT INTO public.students VALUES (11, 'Dasaiy', 'Hijo', 41, 4.1);
+INSERT INTO public.students VALUES (12, 'Bisi', 'Thomas', NULL, 3.3);
