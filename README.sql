@@ -267,3 +267,8 @@ INSERT INTO public.students VALUES (9, 'Jimmy', 'Gomez', 36, 3.1);
 INSERT INTO public.students VALUES (10, 'Kemir', 'Simpson', NULL, 2.2);
 INSERT INTO public.students VALUES (11, 'Dasaiy', 'Hijo', 41, 4.1);
 INSERT INTO public.students VALUES (12, 'Bisi', 'Thomas', NULL, 3.3);
+INSERT INTO public.students VALUES (13, 'Sterling', 'Boss', 41, 3.9);
+INSERT INTO public.students VALUES (14, 'Brian', 'Davis', NULL, 2.3);
+INSERT INTO public.students VALUES (15, 'Kaija', 'Uronen', 41, 3.7);
+INSERT INTO public.students VALUES (16, 'Faye', 'Conn', 41, 2.1);
+INSERT INTO public.students VALUES (17, 'Efren', 'Reilly', 37, 3.9);
