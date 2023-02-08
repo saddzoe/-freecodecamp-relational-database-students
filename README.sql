@@ -285,9 +285,29 @@ INSERT INTO public.students VALUES (27, 'Vanya', 'Hassan', 41, 4.0);
 INSERT INTO public.students VALUES (28, 'Roxelana', 'Florescu', 36, 3.1);
 INSERT INTO public.students VALUES (29, 'Helene', 'Durant', 38, 3.4);
 INSERT INTO public.students VALUES (30, 'Mariana', 'Wilson', 37, 1.9);
-INSERT INTO public.students VALUES (31, 'Ajit', 'Dhungel', NULL, 3.1);
-INSERT INTO public.students VALUES (32, 'Mehdi', 'Vanden', 36, 1.4);
-INSERT INTO public.students VALUES (33, 'Dejon', 'Howellsend', 37, 4.0);
-INSERT INTO public.students VALUES (34, 'Aliya', 'Gulgowski', 42, 2.3);
-INSERT INTO public.students VALUES (35, 'Ana', 'Tupajic', 38, 3.5);
+INSERT INTO public.students VALUES (31, 'Ajith', 'Dhungel', NULL, 3.1);
+INSERT INTO public.students VALUES (32, 'Mehdi', 'Vande', 36, 1.4);
+INSERT INTO public.students VALUES (33, 'Dejon', 'Howsend', 37, 4.0);
+INSERT INTO public.students VALUES (34, 'Aliya', 'Gulgow', 42, 2.3);
+INSERT INTO public.students VALUES (35, 'Ana', 'Topher', 38, 3.5);
 INSERT INTO public.students VALUES (36, 'Hugo', 'James', NULL, 3.8);
+
+--
+-- Name: courses_course_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.courses_course_id_seq', 39, true);
+
+
+--
+-- Name: majors_major_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.majors_major_id_seq', 42, true);
+
+
+--
+-- Name: students_student_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
+--
+
+SELECT pg_catalog.setval('public.students_student_id_seq', 36, true);
