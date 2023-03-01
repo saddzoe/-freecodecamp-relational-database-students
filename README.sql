@@ -369,4 +369,6 @@ ALTER TABLE ONLY public.majors_courses
 ALTER TABLE ONLY public.students
     ADD CONSTRAINT students_major_id_fkey FOREIGN KEY (major_id) REFERENCES public.majors(major_id);
 
-
+--
+-- PostgreSQL database dump complete
+--
