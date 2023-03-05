@@ -197,7 +197,7 @@ INSERT INTO public.courses VALUES (23, 'Data Structures and Algorithms');
 INSERT INTO public.courses VALUES (24, 'Web Programming');
 INSERT INTO public.courses VALUES (25, 'Database Systems');
 INSERT INTO public.courses VALUES (26, 'Computer Networks');
-INSERT INTO public.courses VALUES (27, 'SQL');
+INSERT INTO public.courses VALUES (27, 'SQL and MySql');
 INSERT INTO public.courses VALUES (28, 'Machine Learning');
 INSERT INTO public.courses VALUES (29, 'Computer Systems');
 INSERT INTO public.courses VALUES (30, 'Web Applications');
